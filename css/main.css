@@ -1,0 +1,139 @@
+div, p, input, button, form, span, a, ul,li{
+    box-sizing: border-box;
+}
+p {
+    line-height: 1.8em;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+h1 h2 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 37px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.header {
+    background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 100px;
+color: #fff;
+padding-bottom: 136px;
+}
+.wrapper {
+    display: flex;
+}
+
+.offer {
+    margin-top: 155px;
+    width: 572px;
+}
+.title {
+    font-size: 36px;
+}
+.title span {
+    font-size: 60px;
+    margin-bottom: 47px;
+}
+p {
+    line-height: 1.6em;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 43px;
+}
+.btn {
+    background: #ffd429;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: 100px;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #d9b215;
+}
+.desktop {
+    margin-top: 66px;
+}
+
+.icon1, .icon2, .icon3 {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+        
+.future {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+        
+.p_section {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center; 
+}
+.mail {
+    background: #ecf3f8;
+    padding-top: 110px;
+    padding-bottom: 102px;
+}
+.future2 {
+    padding-left: 390px;
+   
+}
+.form {
+    background-color: #ecf3f8;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+input {
+    width: 340px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #9c9b9f;
+    border-color: #bbbbbb;
+}
+.footer {
+    padding: 64px 0;
+    background: #164d7a;
+}
+.credins {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
