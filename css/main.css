@@ -137,4 +137,7 @@ input {
     text-align: center;
 }
 
-
+.progress{
+    display: flex;
+    justify-content: space-between;
+} 
